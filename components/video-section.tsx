@@ -65,7 +65,7 @@ export function VideoSection() {
         </h2>
       {/* Video placeholder — replace this whole div with an <iframe> when you have your video embed URL. */}
       {/* Responsive Video Container */}
-      <div ref={videoWrapperRef} className="pr-6 md:pr-12 max-w-5xl">
+      <div ref={videoWrapperRef} className="mt-12 pr-6 md:pr-12 max-w-5xl">
         <div className="relative w-full aspect-video rounded-lg overflow-hidden border border-white/70 shadow-[0px_0px_30px_rgba(169,118,81,0.5)]">
           <iframe 
             className="absolute top-0 left-0 w-full h-full"
