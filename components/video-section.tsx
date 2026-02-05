@@ -63,25 +63,17 @@ export function VideoSection() {
         <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">
           PROJECT REVIEW <span className="text-accent">VIDEO</span>
         </h2>
-      </div>
-
-      {/* Instructional text — you can change or remove this. */}
-      <div className="mb-10 pr-6 md:pr-12 max-w-3xl">
-      </div>
-
       {/* Video placeholder — replace this whole div with an <iframe> when you have your video embed URL. */}
-      <div>
-        <iframe 
-          width="948" 
-          height="535" 
+      <div className="aspect-video w-full max-w-[948px] mx-auto">
+        <iframe
+          className="w-full h-full"
           style={{ border: "1px solid white", boxShadow: "0px 0px 30px rgba(169, 118, 81, 0.5)" }}
-          src="https://www.youtube.com/embed/yZjtAanN2U0" 
-          title="BUILDFOLIO review video" 
-          loading="lazy"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          referrerPolicy="strict-origin-when-cross-origin" 
-          allowFullScreen>
-        </iframe>
+          src="https://www.youtube.com/embed/yZjtAanN2U0"
+          title="BUILDFOLIO review video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
       </div>
     </section>
   )
