@@ -63,12 +63,6 @@ export function VideoSection() {
         <h2 className="mt-4 font-[var(--font-bebas)] text-5xl md:text-7xl tracking-tight">
           PROJECT REVIEW <span className="text-accent">VIDEO</span>
         </h2>
-      </div>
-
-      {/* Instructional text — you can change or remove this. */}
-      <div className="mb-10 pr-6 md:pr-12 max-w-3xl">
-      </div>
-
       {/* Video placeholder — replace this whole div with an <iframe> when you have your video embed URL. */}
       {/* Responsive Video Container */}
       <div ref={videoWrapperRef} className="pr-6 md:pr-12 max-w-5xl">
@@ -84,6 +78,7 @@ export function VideoSection() {
           </iframe>
         </div>
       </div>
+    </div>
     </section>
   )
 }
